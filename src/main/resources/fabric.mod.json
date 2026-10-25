@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "lunavisual",
+  "version": "${version}",
+  "name": "Luna Visual",
+  "description": "Client-side visibility and accessibility options for Minecraft.",
+  "authors": ["FreakShov"],
+  "license": "MIT",
+  "icon": "assets/lunavisual/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.lunavisual.client.LunaVisualClient"]
+  },
+  "mixins": [
+    {
+      "config": "lunavisual.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": ">=0.141.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

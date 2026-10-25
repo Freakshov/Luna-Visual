@@ -1,0 +1,20 @@
+{
+  "key.category.lunavisual.main": "Luna Visual",
+  "key.lunavisual.open_settings": "Open Luna Visual settings",
+  "screen.lunavisual.title": "Luna Visual",
+  "screen.lunavisual.subtitle": "Tune your view, one option at a time",
+  "screen.lunavisual.done": "DONE",
+  "screen.lunavisual.footer": "PRESS %s TO OPEN MENU",
+  "screen.lunavisual.status.enabled": "ON",
+  "screen.lunavisual.status.disabled": "OFF",
+  "button.lunavisual.enabled": "%s: ON",
+  "button.lunavisual.disabled": "%s: OFF",
+  "feature.lunavisual.fullbright": "Fullbright",
+  "feature.lunavisual.fullbright.description": "Brightens the world; saved gamma stays unchanged.",
+  "feature.lunavisual.warden_darkness": "Warden darkness",
+  "feature.lunavisual.warden_darkness.description": "Hides Darkness fog and dimming; the effect stays active.",
+  "feature.lunavisual.clear_fluids": "Clear water, lava & powder snow",
+  "feature.lunavisual.clear_fluids.description": "Reduces fog while the camera is inside water, lava or powder snow.",
+  "feature.lunavisual.lava_clear_view": "Lava clear view",
+  "feature.lunavisual.lava_clear_view.description": "With Fire Resistance or Creative, eases lava fog and flames."
+}

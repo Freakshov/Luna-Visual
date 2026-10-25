@@ -1,0 +1,20 @@
+{
+  "key.category.lunavisual.main": "Luna Visual",
+  "key.lunavisual.open_settings": "Luna Visual ayarlarını aç",
+  "screen.lunavisual.title": "Luna Visual",
+  "screen.lunavisual.subtitle": "Görüşünü özellikleri tek tek seçerek ayarla",
+  "screen.lunavisual.done": "TAMAM",
+  "screen.lunavisual.footer": "MENÜYÜ AÇMAK İÇİN %s",
+  "screen.lunavisual.status.enabled": "AÇIK",
+  "screen.lunavisual.status.disabled": "KAPALI",
+  "button.lunavisual.enabled": "%s: AÇIK",
+  "button.lunavisual.disabled": "%s: KAPALI",
+  "feature.lunavisual.fullbright": "Tam parlaklık",
+  "feature.lunavisual.fullbright.description": "Kaydedilmiş gama ayarını değiştirmeden dünyayı aydınlatır.",
+  "feature.lunavisual.warden_darkness": "Warden karanlığı",
+  "feature.lunavisual.warden_darkness.description": "Karanlık sisini ve kararmayı gizler; efekt etkin kalır.",
+  "feature.lunavisual.clear_fluids": "Berrak su, lav ve toz karı",
+  "feature.lunavisual.clear_fluids.description": "Sıvıların ve toz karının içindeyken görüş sisini azaltır.",
+  "feature.lunavisual.lava_clear_view": "Lavda net görüş",
+  "feature.lunavisual.lava_clear_view.description": "Ateş Direnciyle veya Yaratıcı modda lav görüşünü açar."
+}

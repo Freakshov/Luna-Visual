@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Luna Visual</title>
+  <desc id="desc">Minecraft için ay ışığı temalı görsel iyileştirme modu.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172a48"/>
+      <stop offset="0.58" stop-color="#0b1426"/>
+      <stop offset="1" stop-color="#080d19"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4d5"/>
+      <stop offset="1" stop-color="#58d9e9"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9cf6ff"/>
+      <stop offset="1" stop-color="#547dff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#32cadd" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#32cadd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="380" rx="30" fill="url(#background)"/>
+  <circle cx="944" cy="190" r="205" fill="url(#halo)"/>
+  <g fill="#d8faff" opacity=".72">
+    <circle cx="708" cy="69" r="2"/><circle cx="825" cy="105" r="1.7"/>
+    <circle cx="1084" cy="73" r="2"/><circle cx="1127" cy="247" r="1.6"/>
+    <circle cx="743" cy="292" r="1.8"/><circle cx="1010" cy="326" r="2"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="78" y="92" fill="#83e9f3" font-size="17" font-weight="700" letter-spacing="5">MINECRAFT 1.21.11 · FABRIC</text>
+    <text x="74" y="168" fill="#f4f8ff" font-size="58" font-weight="800" letter-spacing="1">LUNA VISUAL</text>
+    <text x="78" y="218" fill="#dce8fb" font-size="27" font-weight="500">Daha net gör.</text>
+    <text x="78" y="257" fill="#aebed7" font-size="20">Görüşünü kendi oyun tarzına göre ayarla.</text>
+    <g transform="translate(78 297)">
+      <rect width="158" height="38" rx="19" fill="#152e45" stroke="#2d6578"/>
+      <text x="79" y="25" text-anchor="middle" fill="#a7f2f4" font-size="13" font-weight="700" letter-spacing="1">4 GÖRÜŞ SEÇENEĞİ</text>
+      <rect x="172" width="122" height="38" rx="19" fill="#15243f" stroke="#384f83"/>
+      <text x="233" y="25" text-anchor="middle" fill="#c6d3ff" font-size="13" font-weight="700" letter-spacing="1">CLIENT-SIDE</text>
+    </g>
+  </g>
+  <circle cx="947" cy="190" r="121" fill="#37d6e7" opacity=".16" filter="url(#softGlow)"/>
+  <path d="M765 190c45-59 106-90 182-90s137 31 182 90c-45 59-106 90-182 90s-137-31-182-90Z" fill="#0b1829" stroke="url(#eye)" stroke-width="13" stroke-linejoin="round"/>
+  <circle cx="947" cy="190" r="63" fill="#102d44" stroke="#5be2ed" stroke-width="8"/>
+  <circle cx="947" cy="190" r="42" fill="#35c8df" opacity=".22" filter="url(#softGlow)"/>
+  <path d="M957 147a48 48 0 1 0 31 82 39 39 0 0 1-31-82Z" fill="url(#moon)"/>
+  <path d="m1003 151 6 14 14 6-14 6-6 14-6-14-14-6 14-6Z" fill="#fff3d0"/>
+  <path d="m1081 115 7 17 17 7-17 7-7 17-7-17-17-7 17-7Z" fill="#a7f5ff"/>
+  <path d="m825 252 5 12 12 5-12 5-5 12-5-12-12-5 12-5Z" fill="#fff1c9" opacity=".88"/>
+</svg>
